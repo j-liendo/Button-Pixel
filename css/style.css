@@ -10,6 +10,10 @@ div {
   font-family: 'Pixel-Art';
 }
 
+.d-no {
+  display: none;
+}
+
 .flex {
   display: -webkit-box;
   display: -ms-flexbox;
