@@ -1,6 +1,9 @@
 @font-face {
   font-family: 'Pixel-Art';
-  src: url("../fonts/pixelart.ttf") format("truetype");
+  src: url("../fonts/Pixel-Art.woff2") format("woff2"), url("../fonts/Pixel-Art.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
 }
 
 div {
