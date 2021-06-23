@@ -7,4 +7,5 @@ function func() {
     i += 1
     count.innerHTML = i;
     sfx.play();
+    sfx.currentTime = 0;
 }
