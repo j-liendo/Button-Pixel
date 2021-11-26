@@ -1,74 +1,77 @@
 @font-face {
-  font-family: 'Pixel-Art';
-  src: url("../fonts/Pixel-Art.woff2") format("woff2"), url("../fonts/Pixel-Art.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
+    font-family: 'Pixel-Art';
+    src: url("../fonts/Pixel-Art.woff2") format("woff2"), url("../fonts/Pixel-Art.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
 div {
-  font-family: 'Pixel-Art';
+    font-family: 'Share Tech Mono', monospace;
 }
 
 .d-no {
-  display: none;
+    display: none;
 }
 
 .flex {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  height: 100vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    height: 100vh;
 }
 
 #count {
-  font-size: 40px;
-  padding: 30px;
-  margin-bottom: -120px;
-  -webkit-user-select: none;
-     -moz-user-select: none;
-      -ms-user-select: none;
-          user-select: none;
+    font-size: 40px;
+    padding: 30px;
+    margin-bottom: -120px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
 
 .icon {
-  background: url("../images/0-.png");
-  background-repeat: no-repeat;
-  background-size: 100%;
-  -ms-interpolation-mode: nearest-neighbor;
-      image-rendering: -webkit-optimize-contrast;
-      image-rendering: -moz-crisp-edges;
-      image-rendering: -o-pixelated;
-      image-rendering: pixelated;
-  width: 56vh;
-  height: 60vh;
+    background: url("../images/0-.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    -ms-interpolation-mode: nearest-neighbor;
+    image-rendering: -webkit-optimize-contrast;
+    image-rendering: -moz-crisp-edges;
+    image-rendering: -o-pixelated;
+    image-rendering: pixelated;
+    width: 56vh;
+    height: 60vh;
 }
 
 .icon:hover {
-  background: url("../images/1.png");
-  background-repeat: no-repeat;
-  -ms-interpolation-mode: nearest-neighbor;
-      image-rendering: -webkit-optimize-contrast;
-      image-rendering: -moz-crisp-edges;
-      image-rendering: -o-pixelated;
-      image-rendering: pixelated;
-  background-size: 100%;
+    background: url("../images/1.png");
+    background-repeat: no-repeat;
+    -ms-interpolation-mode: nearest-neighbor;
+    image-rendering: -webkit-optimize-contrast;
+    image-rendering: -moz-crisp-edges;
+    image-rendering: -o-pixelated;
+    image-rendering: pixelated;
+    background-size: 100%;
 }
 
 .icon:active {
-  background: url("../images/2.png");
-  background-repeat: no-repeat;
-  -ms-interpolation-mode: nearest-neighbor;
-      image-rendering: -webkit-optimize-contrast;
-      image-rendering: -moz-crisp-edges;
-      image-rendering: -o-pixelated;
-      image-rendering: pixelated;
-  background-size: 100%;
+    background: url("../images/2.png");
+    background-repeat: no-repeat;
+    -ms-interpolation-mode: nearest-neighbor;
+    image-rendering: -webkit-optimize-contrast;
+    image-rendering: -moz-crisp-edges;
+    image-rendering: -o-pixelated;
+    image-rendering: pixelated;
+    background-size: 100%;
 }
+
+
 /*# sourceMappingURL=style.css.map */
