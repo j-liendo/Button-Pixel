@@ -1,13 +1,19 @@
 @font-face {
-    font-family: 'Pixel-Art';
-    src: url("../fonts/Pixel-Art.woff2") format("woff2"), url("../fonts/Pixel-Art.woff") format("woff");
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
+    font-family: "Pixels";
+    src: url("../fonts/640bccf731fd712f99b3b3ef2b89d628.eot");
+    /* IE9*/
+    src: url("640bccf731fd712f99b3b3ef2b89d628.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("../fonts/640bccf731fd712f99b3b3ef2b89d628.woff2") format("woff2"), /* chrome、firefox */
+    url("../fonts/640bccf731fd712f99b3b3ef2b89d628.woff") format("woff"), /* chrome、firefox */
+    url("../fonts/640bccf731fd712f99b3b3ef2b89d628.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+    url("../fonts/640bccf731fd712f99b3b3ef2b89d628.svg#Pixels") format("svg");
+    /* iOS 4.1- */
 }
 
 div {
-    font-family: 'Share Tech Mono', monospace;
+    font-family: "Pixels" !important;
+    font-size: 120px;
+    font-style: normal;
 }
 
 .d-no {
@@ -28,9 +34,9 @@ div {
 }
 
 #count {
-    font-size: 40px;
-    padding: 30px;
-    margin-bottom: -120px;
+    position: fixed;
+    top: -50px;
+    left: 10px;
     -webkit-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
